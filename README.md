@@ -2,6 +2,19 @@
 
 A simple web application to create, manage, and organize notes with categories.
 
+## ⚠️ Important: Database Configuration
+
+Before running the app, update your MySQL credentials in:
+```
+backend/src/main/resources/application.properties
+```
+
+Change these values:
+```properties
+spring.datasource.username=root
+spring.datasource.password=YOUR_PASSWORD_HERE
+```
+
 ## Requirements
 
 | Tool | Version |
